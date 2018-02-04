@@ -40,7 +40,7 @@
 ## Core Layout Process
 * layout 정보가 필요할 때, collectionview는 layout object에게 다음과 같은 process를 통해 특정 method들을 call하여 layout 정보를 얻는다.
 
-![core_layout_process](https://koenig-media.raywenderlich.com/uploads/2015/05/layout-lifecycle.png)
+![core_layout_process](https://raw.githubusercontent.com/Dev-MJ/Study_iOS/master/Img/core_layout_process_collectoinview.png)
 
 * 따라서 custom layout을 만들 경우, 아래의 method들을 반드시 구현해야 한다.
    * `collectionVIewContentSize`
